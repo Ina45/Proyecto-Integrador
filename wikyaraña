@@ -1,0 +1,36 @@
+import scrapy
+import requests
+from bs4 import BeautifulSoup
+
+class Wikyarana(scrapy.Spider):
+    name = 'viole.viole'
+    start_urls = ['https://es.wikipedia.org/wiki/Portal:Argentina/Efem%C3%A9rides_de_septiembre']
+
+    def parse(self, response):
+       
+        response = requests.get(response.url)
+        if response.status_code == 200:
+            html_content = response.text
+
+            soup = BeautifulSoup(html_content, 'html.parser')
+
+            seccion =soup.select_one("div.mw-parser-output")
+            titulo = seccion.find('h2').text
+            
+            parrafos = seccion.find_all('li')
+
+            print('Título:', titulo)
+            for p in parrafos:
+                print('Párrafo:', p.text)
+        else:
+            self.logger.error('No se pudo obtener el contenido')
+
+        
+# Ejecutar el spider
+if __name__ == "__main__":
+    from scrapy.crawler import CrawlerProcess
+    
+
+    process = CrawlerProcess()
+    process.crawl(Wikyarana)
+    process.start()
