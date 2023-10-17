@@ -1,10 +1,10 @@
 # Proyecto Integrador---Grupo-1
 # Tema: Scraping de Wikipedia.
 # Integrantes: 
-Mercado Violeta.
-Gutiérrez Emma.
-Garcia Juarez Mateo. 
-Arato Juan Jose.
+* Mercado Violeta.
+* Gutiérrez Emma.
+* Garcia Juarez Mateo. 
+* Arato Juan Jose.
 
 El scraping de Wikipedia se refiere a la práctica de extraer datos de páginas web de Wikipedia de manera automatizada. Wikipedia es una fuente rica en información y a menudo se realiza el scraping para obtener datos específicos de artículos, estadísticas o cualquier otro tipo de contenido disponible en la plataforma. A continuación, te proporcionaré una visión general de cómo se podría realizar el scraping de Wikipedia:
 # Nota Importante: 
