@@ -6,6 +6,12 @@
 * Garcia Juarez Mateo. 
 * Arato Juan Jose.
 
+  Link del documento final:
+  https://docs.google.com/document/d/1cNxze1cq7ogt16Z0juHqwwHBuKVt-VEdexfc93mX86E/edit
+  
+  Link de la Presentacion final:
+  https://docs.google.com/presentation/d/1hq-mpHMHmM9A8ODxNj1Sk5zFcire3spBCsNhaLMQRMU/edit#slide=id.p
+
 El scraping de Wikipedia se refiere a la práctica de extraer datos de páginas web de Wikipedia de manera automatizada. Wikipedia es una fuente rica en información y a menudo se realiza el scraping para obtener datos específicos de artículos, estadísticas o cualquier otro tipo de contenido disponible en la plataforma. A continuación, te proporcionaré una visión general de cómo se podría realizar el scraping de Wikipedia:
 # Nota Importante: 
 Antes de realizar el scraping de Wikipedia u cualquier otro sitio web, es importante revisar y respetar los términos de uso del sitio web y su política de scraping, ya que no todos los sitios permiten el acceso automatizado a su contenido.
