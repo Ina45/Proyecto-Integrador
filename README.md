@@ -6,7 +6,8 @@
 * Garcia Juarez Mateo. 
 * Arato Juan Jose.
 
-LINKS:
+
+                      LINKS:
 
 
   Links del documento final:
@@ -31,12 +32,12 @@ Utiliza una biblioteca como Requests para realizar una solicitud HTTP a la URL d
 Utiliza Beautiful Soup o una biblioteca similar para analizar el contenido HTML de la página y extraer los elementos que deseas, como títulos, párrafos, tablas, etc.
 # Procesamiento y almacenamiento de datos:
 Procesa los datos extraídos según tus necesidades. Puedes almacenarlos en una estructura de datos como un diccionario o una base de datos.
-# Manejo de la paginación y navegación:
+# Manipulacion de la pagina y la exploracion de la misma:
 Si se desea extraer datos de múltiples páginas de Wikipedia, deberás implementar la lógica para navegar entre páginas, siguiendo enlaces y recopilando datos de manera recursiva.
 # Respeto de los términos de uso:
 Es importante respetar las políticas de Wikipedia y no realizar solicitudes excesivas o dañinas al sitio. Asegúrate de que tu scraping sea ético y cumpla con las reglas.
 # Gestión de errores y excepciones:
-Implementa manejadores de errores para manejar situaciones inesperadas, como páginas no encontradas o bloqueos temporales.
+Implementacion  tecnicas de control de errores para manipular situaciones inesperadas, como páginas no encontradas o bloqueos temporales.
 # Almacenamiento y análisis de datos:
 Después de extraer los datos, puedes almacenarlos en un archivo, una base de datos o realizar un análisis adicional, según tus objetivos.
 Es importante recordar que el scraping de Wikipedia debe realizarse con respeto a los derechos de autor y los términos de uso de la plataforma. Además, ten en cuenta que la estructura de las páginas de Wikipedia puede cambiar con el tiempo, por lo que es posible que necesites actualizar tu código de scraping en consecuencia.
